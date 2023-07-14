@@ -1,0 +1,121 @@
+.App{
+  
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  
+  
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.search-bar{
+  border-radius: 30px;
+  height: 30px;
+  width: 250px;
+  border: 1px solid grey;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  margin-top: 2rem;
+  
+}
+
+.search-icon{
+  height: 18px;
+  
+}
+
+.search-btn{
+  height: 30px;
+  border-radius: 30px;
+  margin-left: -40px;
+  padding: 5px;
+  border: 1px solid grey;
+  margin-top: 2rem;
+}
+
+.main{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  
+
+}
+
+.main-info{
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  align-items: center;
+  margin-top: 2rem;
+  
+}
+
+.location-stats{
+  display: flex;
+  flex-direction: row;
+  width: 30rem;
+  justify-content: space-between;
+  margin-bottom: 2rem
+}
+
+.location{
+  font-size: 1.5rem;
+  
+}
+
+.weather-icon{
+  height: 7rem;
+  margin-right: 2rem;
+}
+
+.temperature{
+  font-size: 6rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.weather{
+  font-size: 1.5rem;
+  font-weight: 600
+}
+
+.current-time{
+  font-size: 1.5rem;
+}
+
+.other-info{
+  
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  width: 45rem;
+  justify-content: space-evenly;
+  
+}
+
+.feels-like, .humidity, .wind-speed, .sunrise, .sunset{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-weight: 500;
+  align-items: center;
+}
+
+.feels-like p, .humidity p, .wind-speed p, .sunrise p, .sunset p{
+  font-size: 1rem;
+  font-weight: 500;
+}
